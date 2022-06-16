@@ -1,0 +1,26 @@
+#ls
+alias ll='ls -alF --color'
+alias la='ls -A --color'
+alias l='ls -CF --color'
+
+#Git
+alias gst='git st'
+alias gcm='git cm'
+alias gpl='git pull'
+alias gps='git push'
+alias gco='git co'
+alias gbr='git br'
+alias gad='git a'
+alias gap='git ap'
+alias gdi='git diff'
+alias gfe='git fe'
+alias gac='git ac'
+
+#Misc
+alias vundle='nvim +PluginInstall +qall'
+alias bd='. bd -si'
+alias vim='nvim'
+
+alias rg='rg --hidden'
+
+#scripts

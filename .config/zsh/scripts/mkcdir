@@ -1,0 +1,9 @@
+### mkcdir
+# mnemonic: [MK]make and [C]change [DIR]directory
+# show output of "ps -ef", use [tab] to select one or multiple entries
+# uses the provided argument to create a directory with the same name, and changes into that directory
+# supports nested directories by default
+# press [enter] 
+
+mkdir -p -- "$1" &&
+cd -P -- "$1"

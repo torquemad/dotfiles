@@ -1,0 +1,6 @@
+### setclip
+# mnemonic: [set] [clip]board
+# sets the current clipboard contents using xclip
+# usage: cat someFile.txt | setclip
+
+xclip -selection c

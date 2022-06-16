@@ -1,0 +1,5 @@
+### getclip
+# mnemonic: [get] [clip]board
+# gets the current clipboard contents using xclip
+
+xclip -selection clipboard -o
