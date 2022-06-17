@@ -10,4 +10,4 @@ fi
 
 # Key bindings
 # ------------
-source "/home/luigi/.fzf/shell/key-bindings.zsh"
+source ${XDG_CONFIG_HOME:-$HOME/.config}/.fzf/shell/key-bindings.zsh
